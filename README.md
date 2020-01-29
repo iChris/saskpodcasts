@@ -1,77 +1,25 @@
-# EleventyOne
+## What is this?
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/eleventyone/deploys)
+It's just a list of podcasts created in [Saskatchewan](https://en.wikipedia.org/wiki/Saskatoon), [Canada](https://en.wikipedia.org/wiki/Canada).
 
-Phil's first port of call when starting another project using Eleventy.
+## Why?
 
-This project scaffold includes:
+I really like projects the web that can be easily linked to, updated, changed, and passed on to someone else if I get bored.
 
-- [Eleventy](https://11ty.io) with a skeleton site
-- A date format filter for Nunjucks based on [Luxon](https://moment.github.io/luxon)
-- A tiny CSS pipeline with PostCSS
-- A tiny inline JS pipeline
-- JS search index generator
-- [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
-- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
+## Who are you?
 
+I'm [Chris Enns](https://chrisenns.com/), a [podcast editor / producer](https://www.lemonproductions.ca/), who wants to help listeners find more podcasts to listen to.
 
-![Eleventy screenshot](./eleventyone-template.jpg)
+## Isn't there already a Saskatchewan Podcast Network?
 
+Yep! Go [check it out](https://saskpodcastnetwork.com/) and sign up if you're interested.
 
-## Instructions
+The main difference, aside from a clever mic shaped as the province logo (v. nice!), is I don't care if you ever link back to this list or not. I'm not trying to help you sell ads or get sponsors. This is purely a list of podcasts made in Saskatchewan.
 
-To get your own instance of this 11ty starter project cloned and deploying to Netlify very quickly, just click the button below and follow the instructions.
+## Where is it hosted?
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventyone)
+This site is hosted on [Netlify](http://netlify.com/). The source code is on [GitHub](https://github.com/iChris/saskpodcasts).
 
+## How can I help with the site?
 
-## Wait, what happens when I click that button?
-
-Good question. Here's what it will do...
-
-1. Netlify will clone the git repository of this project into your Github account. It will be asking for permission to add the repo for you.
-2. We'll create a new site for you in Netlify, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
-3. That's it really.
-
-
-## Prerequisites
-
-- [Node and NPM](https://nodejs.org/)
-
-## Running locally
-
-```bash
-# install the dependencies
-npm install
-
-# External data sources can be stashed locally
-npm run seed
-
-# It will then be available locally for building with
-npm run start
-```
-
-## Add some Netlify helpers
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get Netlify Dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar in front of Eleventy
-netlify dev
-```
-
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
-
-- /.netlify/functions/hello
-- /.netlify/functions/fetch-joke
-
-
-### Redirects and proxies
-
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
-
-- /api/hello
-- /api/fetch-joke
-
+Feel free to [file an issue](https://github.com/iChris/saskpodcasts/issues) (*i.e. there's something wrong with the information on the site*) or [submit a pull request](https://github.com/iChris/saskpodcasts/pulls) to add a new podcast to the listing.
