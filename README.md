@@ -18,7 +18,9 @@ The main difference, aside from a clever mic shaped as the province logo (v. nic
 
 ## Where is it hosted?
 
-This site is hosted on [Netlify](http://netlify.com/). The source code is on [GitHub](https://github.com/iChris/saskpodcasts).
+At present the public facing site is at [saskpodcasts.netlify.com/](https://saskpodcasts.netlify.com/).
+
+The site is hosted on [Netlify](http://netlify.com/). The source code is on [GitHub](https://github.com/iChris/saskpodcasts).
 
 ## How can I help with the site?
 
