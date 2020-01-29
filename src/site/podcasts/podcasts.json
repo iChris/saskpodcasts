@@ -1,0 +1,6 @@
+{
+    "layout" : "layouts/podcasts.md",
+    "tags" : "podcast",
+    "templateEngineOverride": "njk,md"
+  }
+  
